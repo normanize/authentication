@@ -1,0 +1,28 @@
+{
+    "name": "normanize/authentication",
+    "description": "This package will handle the authentication",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "normanize",
+            "email": "normanamaro.work@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/passport": "12.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Normanize\\Authentication\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Normanize\\Authentication\\AuthenticationServiceProvider"
+            ]
+        }
+    }
+}
