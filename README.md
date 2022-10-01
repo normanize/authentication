@@ -9,14 +9,12 @@ Laravel API Authentication
 
 # installation  
 
+add this package inside your_project_name/package/
+
+$ cd your_project_name/package/authentication  
 $ composer install  
 
-in the project directory, create a folder 'package'  
-
-$ mkdir package  
-
-
-update project/composer.json  
+update your_project_name/composer.json  
 
 ```
 ...
@@ -36,7 +34,7 @@ update project/composer.json
 }
 ```  
 
-update project/config/auth.php  
+update your_project_name/config/auth.php  
 
 ```
 ...
@@ -50,6 +48,7 @@ update project/config/auth.php
 ```  
 
 and run this commands  
+
 $ composer update  
 $ php artisan migrate  
 $ php artisan passport:install  
