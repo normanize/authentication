@@ -1,4 +1,4 @@
-# description  
+# Description  
 
 Laravel API Authentication  
 * login  
@@ -7,7 +7,7 @@ Laravel API Authentication
 * forgot password  
 * reset password  
 
-# installation  
+# Installation  
 
 add this package inside your_project_name/package/
 
